@@ -2,7 +2,7 @@ The files in this folder perform all the statistical analyses for the dataset
 
 1. volumes.sh 
 Extracts all the volumetric data from the aseg.stats files for each timepoint 
-Could probably be more efficient to type via some for loop, but it was sufficient for the small dataset. 
+Could probably be more efficient to type via some for-loop, but it was sufficient for the small dataset. 
 
 2. create_dataframe.py 
 Creates a large dataframe consisting of all volumetric and CBF values for all ROIs for all participants and timepoints (so very large)
