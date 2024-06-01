@@ -21,7 +21,7 @@ It then stores the result in the specified folder. As the timepoints have differ
 runme.sh does complete FreeSurfer and FSL Basil analysis for one subjects. It takes three input arguments: 
 1. subject number (F-value) 
 2. folder name - tha main folder where the entire analysis is stored. 
-	NB: the name of the folder is also an input argument for make_folders.sh 
+	* NB: the name of the folder is also an input argument for make_folders.sh 
 3. the number of timepoints. This will vary from participant to participant, and must therefore be specified before running. 
 
 
