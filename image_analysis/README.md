@@ -30,9 +30,9 @@ The script takes around 24 hours to complete.
 
 --------------------------- Example of run-through ---------------------------------------
 
-. make_folders.sh test_1 \\
-. dcm_to_nii.sh test_1 12345 AB AC AD AE AF \\
-. runme.sh 12345 test_1 5 \\
+. make_folders.sh test_1 
 
+. dcm_to_nii.sh test_1 12345 AB AC AD AE AF 
 
+. runme.sh 12345 test_1 5 
 
