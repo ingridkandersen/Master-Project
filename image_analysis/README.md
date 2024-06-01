@@ -1,12 +1,12 @@
 This is the description file for the project. 
 Relevant files: 
--> make_folders.sh 
--> dcm_to_nii.sh 
--> freesurfer_recon_pas.sh 
--> freesurfer_recon_long.sh 
--> registration_pas.sh 
--> CBF_calculation.sh 
--> runme.sh 
+*  make_folders.sh
+* dcm_to_nii.sh
+* freesurfer_recon_pas.sh
+* freesurfer_recon_long.sh
+* registration_pas.sh
+* CBF_calculation.sh
+* runme.sh 
 
 
 The main file is runme.sh. It runs all the files necessary to do the analysis for one participant. 
@@ -30,9 +30,9 @@ The script takes around 24 hours to complete.
 
 --------------------------- Example of run-through ---------------------------------------
 
-. make_folders.sh test_1
-. dcm_to_nii.sh test_1 12345 AB AC AD AE AF 
-. runme.sh 12345 test_1 5
+. make_folders.sh test_1 \\
+. dcm_to_nii.sh test_1 12345 AB AC AD AE AF \\
+. runme.sh 12345 test_1 5 \\
 
 
 
